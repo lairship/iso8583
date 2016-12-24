@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfIso8583Field xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Iso8583Field>
+    <BitNum>1</BitNum>
+    <FieldName>Bit Map Extended</FieldName>
+    <DataType>B</DataType>
+    <Length>0</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>2</BitNum>
+    <FieldName>Primary Account Number</FieldName>
+    <DataType>N</DataType>
+    <Length>22</Length>
+    <Format>LLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>3</BitNum>
+    <FieldName>Processing Code</FieldName>
+    <DataType>N</DataType>
+    <Length>6</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>4</BitNum>
+    <FieldName>Amount Transaction</FieldName>
+    <DataType>N</DataType>
+    <Length>12</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>7</BitNum>
+    <FieldName>Transmission Date &amp; Time</FieldName>
+    <DataType>N</DataType>
+    <Length>10</Length>
+    <Format>MMDDhhmmss</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>11</BitNum>
+    <FieldName>System Trace Audit Number</FieldName>
+    <DataType>N</DataType>
+    <Length>6</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>12</BitNum>
+    <FieldName>Time Local Transaction</FieldName>
+    <DataType>N</DataType>
+    <Length>6</Length>
+    <Format>hhmmss</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>13</BitNum>
+    <FieldName>Date Local Transaction</FieldName>
+    <DataType>N</DataType>
+    <Length>4</Length>
+    <Format>MMDD</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>25</BitNum>
+    <FieldName>Point-of-Service Condition Code</FieldName>
+    <DataType>N</DataType>
+    <Length>2</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>28</BitNum>
+    <FieldName>对帐流水号</FieldName>
+    <DataType>N</DataType>
+    <Length>6</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>32</BitNum>
+    <FieldName>Acquiring Institution Identification Code</FieldName>
+    <DataType>N</DataType>
+    <Length>11</Length>
+    <Format>LLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>33</BitNum>
+    <FieldName>Forwarding Institution Identofication Code</FieldName>
+    <DataType>N</DataType>
+    <Length>11</Length>
+    <Format>LLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>41</BitNum>
+    <FieldName>Terminal Identification</FieldName>
+    <DataType>ANS</DataType>
+    <Length>8</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>42</BitNum>
+    <FieldName>Identification Code</FieldName>
+    <DataType>ANS</DataType>
+    <Length>15</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>47</BitNum>
+    <FieldName>Additional Data - National</FieldName>
+    <DataType>AN</DataType>
+    <Length>999</Length>
+    <Format>LLLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>48</BitNum>
+    <FieldName>Additional Data - Private</FieldName>
+    <DataType>AN</DataType>
+    <Length>999</Length>
+    <Format>LLLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>53</BitNum>
+    <FieldName>Security Related Control Information</FieldName>
+    <DataType>AN</DataType>
+    <Length>16</Length>
+    <Format>None</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>102</BitNum>
+    <FieldName>Account Identification 1</FieldName>
+    <DataType>ANS</DataType>
+    <Length>28</Length>
+    <Format>LLVAR</Format>
+  </Iso8583Field>
+  <Iso8583Field>
+    <BitNum>103</BitNum>
+    <FieldName>扣款帐号</FieldName>
+    <DataType>ANS</DataType>
+    <Length>22</Length>
+    <Format>LLVAR</Format>
+  </Iso8583Field>
+</ArrayOfIso8583Field>
